@@ -1,0 +1,29 @@
+Part 1: Discussion Questions
+
+Recursion:
+
+1.) In your own words, what is recursion?
+Recursion is a programming technique or method where a function calls itself
+within the definition of the function. It replaces the need for a loop. Also,
+every recursive funciton has a base case.
+
+
+2.) Why is it necessary to have a base case?
+Because we need to know when we are done. Otherwise we will get lost in the inception!
+
+
+Graphs:
+
+1.) What is a graph?
+Graphs is a data structure that consists of nodes; the structure shows relationships 
+between things; they can be directed or undirected; they can have loops in them 
+(i.e. be cyclic OR acyclic); they can be disconnected or connected; and they can have weights.
+
+2.) How is a graph different from a tree?
+A tree is a type of graph. A tree can only be connected and acyclic (no loops). 
+Trees are mostly directed, whereas a graph is much broader in its criteria. A graph
+can by cyclic, be undirected, and be unconnected.
+
+3.) Give an example of something that would be good to model with a graph.
+Twitter relationships! Some Twitter relationships are recriprocated, others are not,
+meaning some relationships in the graph would be cyclic and some would be acyclical. 
