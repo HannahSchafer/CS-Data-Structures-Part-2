@@ -54,17 +54,37 @@ Fill in Runtime and Memory:
 
 The answers for dictionary have been provided; you should fill in the rest:
 
-Data Structure              Get         Add     Delete  Iterate     Memory
-Dictionary (Hash Map)       O(1)        O(1)    O(1)    O(n)        medium
-Set (Hash Map)              O(1)        O(1)    O(1)    O(n)                   
-Binary Search Tree          O(log n)    O(1)    O(1)    O(log n)         
-Tree                        
+Data Structure              Get         Add         Delete      Iterate     Memory
+Dictionary (Hash Map)       O(1)        O(1)        O(1)        O(n log n)  medium
+Set (Hash Map)              O(1)        O(1)        O(1)        O(n log n)  medium           
+Binary Search Tree          O(log n)    O(log n)    O(log n)    O(n)        light         
+Tree                        O(n)        O(1)        O(1)        O(n)        light
 
 Get: Find an item in the structure
 Add: Set a key in set/dictionary or add node to tree
 Delete: Remove a key or node
 Iterate: Find next item in data structure
 Memory: Relative to data, how much memory is used? (Choices: a little, medium, or a lot)
+
+
+Sorting:
+
+1.) Describe in words how the Bubble Sort algorithm works.
+The bubble sort algorithm 'bubbles' the biggest number up to the top (or right end).
+In each loop, it find the biggest number of the numbers that are left to be sorted and moves
+it towards the end. It does this by comparing two numbers side by side at a time, seeing which one
+is larger, and moving the larger one always right-ward. 
+
+2.) Describe in words how the Merge Sort algorithm works.
+Merge sort compares two sorted lists (or arrays), comparing the 1st elements against
+each other, then the second elements, and so on, appending to a new list as one moves along.
+However, to ensure that two lists are sorted, (if the lists are not already sorted for us), we need
+to break down the lists into lists of one, then begin the merging process. 
+
+3.) Describe in words how the Quick Sort algorithm works.
+You pick a random pivot item somewhere in the unsorted list, then move anything 
+that is less than that pivot number to the left of that item, and anything that is greater
+than the pivot item to the right. Then you repeat this process again and again.  
 
 
 
